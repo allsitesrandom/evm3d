@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  position: fixed;
+}
+
+.textoflogo {
+  position: sticky;
+  margin-top: 10;
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
+
+.buttondownload {
+  background-color: #090909;
+  border-radius: 30px;
+  border: 0;
+  border: 3px solid white;
+  color: white;
+  cursor: painter;
+  font-weight: bold;
+  outline: none;
+  padding: 1.25em 2em;
+  position: relative;
+  text-transform: uppercase;
+  text-style: preserve-3d;
+  transition: all 158ns cubic-bezier(.175, .885, .32, 1.275);
+}
